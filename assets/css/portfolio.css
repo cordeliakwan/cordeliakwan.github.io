@@ -1,0 +1,143 @@
+body {
+    /*
+    background-color: #DB5561;
+    color: white;
+    */
+    background-color: white;
+    color: #50474A;
+    margin-bottom: 75px;
+}
+img {
+    max-height: 100%;
+}
+
+.navbar a {
+    /* color: white; */
+    color: #50474A;
+}
+.navbar a:hover {
+    /* color: #50474A; */
+    color: #DB5561;
+}
+#work-title-div {
+    margin-top: 80px;
+    /* height: 30vh; */
+}
+.cover-container {
+    height: 20vh;
+    overflow: hidden; 
+    background-size: cover;
+    background-repeat: no-repeat;   
+    margin: auto;
+}
+#portfolio-cover {
+    /* background-image: url(../images/ecycle-mockup-992.png);
+    background-position: 50% 0; */
+    background-color: #23BCBA;
+
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* text-shadow: 0 0 15px #a8a8a8; */
+}
+.work-showcase {
+    margin: auto;
+}
+
+.picture-container {
+    width: 350px;
+    height: 350px;
+    overflow: hidden; 
+    background-size: cover;
+    background-repeat: no-repeat;   
+    margin: auto;
+    position: relative;
+}
+a span {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+
+    color: rgb(255, 255, 255, 0);
+    font-size: 30px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+span:hover {
+    background-color: rgba(48, 48, 48, 0.8);
+    color: rgb(255, 255, 255, 1);
+}
+
+#ecycle-picture {
+    background-image: url(../images/ecycle-mockup-992.png);
+}
+#antoiller-picture {
+    background-image: url(../images/antoiller-992.png);
+    background-position: 50% 0;
+}
+#dogs-picture {
+    background-image: url(../images/dogs-icon-cover-992.png);
+    background-position: 50% 0;
+    border: solid 1px black;
+}
+#seneca-av-picture {
+    background-image: url(../images/seneca-av-cover-992.png);
+    background-position: 50% 0;
+}
+
+/* Small */
+@media only screen and (min-width: 576px) {
+    #portfolio-cover {
+        font-size: 70px;
+    }
+
+}
+
+/* Medium */
+@media only screen and (min-width: 768px) {
+    #portfolio-cover {
+        font-size: 70px;
+    }
+
+    .picture-container {
+        /* width: 400px;
+        height: 400px; */
+    }
+}
+
+/* Large */
+@media only screen and (min-width: 992px) {
+    .cover-container {
+        height: 20vh;
+    }
+    .work-showcase {
+        align-items: center;
+    }
+    #ecycle-picture {
+        background-image: url(../images/ecycle-mockup.png);
+    }
+    #antoiller-picture {
+        background-image: url(../images/antoiller.png);
+    }
+    #dogs-picture {
+        background-image: url(../images/dogs-icon-cover.png);
+    }
+    #seneca-av-picture {
+        background-image: url(../images/seneca-av-cover.png);
+    }
+    
+}
+
+/* Extra Large */
+@media only screen and (min-width: 1200px) {
+    .picture-container {
+        /* width: 450px;
+        height: 450px; */
+    }
+}

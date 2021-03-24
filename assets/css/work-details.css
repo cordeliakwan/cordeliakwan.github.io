@@ -1,0 +1,95 @@
+body {
+    margin-bottom: 75px;
+}
+h1 {
+    font-weight: 600;
+}
+#work-title-div {
+    height: 80px;
+}
+.cover-container {
+    height: 30vh;
+    overflow: hidden; 
+    background-size: cover;
+    background-repeat: no-repeat;   
+    margin: auto;
+}
+#work-info-div {
+    margin: 30px 0px;
+}
+#work-info-div {
+    text-align: left;
+}
+#ecycle-cover {
+    background-image: url(../images/ecycle-mockup-992.png);
+    background-position: 50% 0;
+
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-shadow: 0 0 15px #a8a8a8;
+}
+
+/* carousel styles */
+.carousel {
+    border: black solid 1px;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: #a8a8a8 solid 1px;
+}
+.carousel-indicators .active {
+    background-color: #a8a8a8 ;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+} */
+
+
+/* small */
+@media only screen and (min-width: 576px) {
+    #ecycle-cover {
+        font-weight: 800;
+        font-size: 100px;
+    }
+
+}
+
+/* Medium */
+@media only screen and (min-width: 768px) {
+    #ecycle-cover {
+        font-weight: 800;
+        font-size: 150px;
+    }
+
+}
+
+/* Large */
+@media only screen and (min-width: 992px) {
+
+    .cover-container {
+        height: 40vh;
+    }
+    #ecycle-cover {
+        background-image: url(../images/ecycle-mockup.png);
+        background-position: 50% 0;
+    }
+    
+}
+
+/* Extra Large */
+@media only screen and (min-width: 1200px) {
+}

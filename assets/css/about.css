@@ -1,0 +1,15 @@
+body {
+    /* background-color: #0D7D7B;
+    color: white; */
+    background-color: white;
+}
+.navbar a {
+    /* color: white; */
+    color: #50474A;
+}
+.navbar a:hover {
+    /* color: #aa989e; */
+    color: #DB5561;
+}
+@media only screen and (min-width: 992px) {
+}

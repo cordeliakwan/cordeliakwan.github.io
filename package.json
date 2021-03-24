@@ -1,0 +1,23 @@
+{
+  "name": "cordeliakwan.github.io",
+  "version": "1.0.0",
+  "description": "Cordelia Kwan's website",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordeliakwan/cordeliakwan.github.io.git"
+  },
+  "author": "Cordelia Kwan",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/cordeliakwan/cordeliakwan.github.io/issues"
+  },
+  "homepage": "https://github.com/cordeliakwan/cordeliakwan.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

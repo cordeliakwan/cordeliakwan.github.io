@@ -1,6 +1,40 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
     text-align: center;
-    padding-top: 30px;
+}
+
+.container-screenheight {
+    min-height: 100vh;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding-top: 10px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+}
+.nav-item {
+    margin-left: 15px;
+}
+.landing {
+    padding-top: 100px;
+}
+
+.navbar a {
+    color: #50474A;
+}
+.navbar a:hover {
+    color: #DB5561;
+}
+
+@media only screen and (min-width: 768px) {
+    #logo-img {
+        margin-left:20px;
+    }
 }
