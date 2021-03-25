@@ -13,6 +13,14 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;   
     margin: auto;
+
+    color: white;
+    font-weight: 800;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-shadow: 0 0 15px #a8a8a8;
 }
 #work-info-div {
     margin: 30px 0px;
@@ -23,14 +31,10 @@ h1 {
 #ecycle-cover {
     background-image: url(../images/ecycle-mockup-992.png);
     background-position: 50% 0;
-
-    color: white;
-    font-weight: 800;
-    font-size: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-shadow: 0 0 15px #a8a8a8;
+}
+#antoiller-cover {
+    background-image: url(../images/antoiller-992.png);
+    background-position: 50% 0;
 }
 
 /* carousel styles */
@@ -86,6 +90,10 @@ h1 {
     #ecycle-cover {
         background-image: url(../images/ecycle-mockup.png);
         background-position: 50% 0;
+    }
+    #antoiller-cover {
+        background-image: url(../images/antoiller.png);
+        background-position: 50% 10%;
     }
     
 }
