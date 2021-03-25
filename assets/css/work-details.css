@@ -4,9 +4,6 @@ body {
 h1 {
     font-weight: 600;
 }
-#work-title-div {
-    height: 80px;
-}
 .cover-container {
     height: 30vh;
     overflow: hidden; 
@@ -23,7 +20,7 @@ h1 {
     text-shadow: 0 0 15px #a8a8a8;
 }
 #work-info-div {
-    margin: 30px 0px;
+    margin: 50px 20px;
 }
 #work-info-div {
     text-align: left;
@@ -62,16 +59,20 @@ h1 {
   background-image: none;
 } */
 
+#ecycle-prototype-div {
+    padding-top: 120px;
+}
+#ecycle-prototype {
+    padding-top: 30px;
+}
 
 /* small */
 @media only screen and (min-width: 576px) {
     #ecycle-cover {
-        font-weight: 800;
         font-size: 100px;
     }
     #antoillier-cover {
-        font-weight: 800;
-        font-size: 100px;
+        font-size: 80px;
     }
 
 }
@@ -79,12 +80,10 @@ h1 {
 /* Medium */
 @media only screen and (min-width: 768px) {
     #ecycle-cover {
-        font-weight: 800;
         font-size: 150px;
     }
-    #ecycle-cover {
-        font-weight: 800;
-        font-size: 150px;
+    #antoillier-cover {
+        font-size: 100px;
     }
 
 }
@@ -93,7 +92,7 @@ h1 {
 @media only screen and (min-width: 992px) {
 
     .cover-container {
-        height: 40vh;
+        height: 45vh;
     }
     #ecycle-cover {
         background-image: url(../images/ecycle-mockup.png);
@@ -102,10 +101,14 @@ h1 {
     #antoillier-cover {
         background-image: url(../images/antoillier.png);
         background-position: 50% 40%;
+
+        font-size: 120px;
     }
-    
 }
 
 /* Extra Large */
 @media only screen and (min-width: 1200px) {
+    #antoillier-cover {
+        font-size: 140px;
+    }
 }
