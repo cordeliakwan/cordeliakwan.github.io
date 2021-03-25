@@ -32,9 +32,9 @@ h1 {
     background-image: url(../images/ecycle-mockup-992.png);
     background-position: 50% 0;
 }
-#antoiller-cover {
-    background-image: url(../images/antoiller-992.png);
-    background-position: 50% 0;
+#antoillier-cover {
+    background-image: url(../images/antoillier-992.png);
+    background-position: 50% 50%;
 }
 
 /* carousel styles */
@@ -69,11 +69,19 @@ h1 {
         font-weight: 800;
         font-size: 100px;
     }
+    #antoillier-cover {
+        font-weight: 800;
+        font-size: 100px;
+    }
 
 }
 
 /* Medium */
 @media only screen and (min-width: 768px) {
+    #ecycle-cover {
+        font-weight: 800;
+        font-size: 150px;
+    }
     #ecycle-cover {
         font-weight: 800;
         font-size: 150px;
@@ -91,9 +99,9 @@ h1 {
         background-image: url(../images/ecycle-mockup.png);
         background-position: 50% 0;
     }
-    #antoiller-cover {
-        background-image: url(../images/antoiller.png);
-        background-position: 50% 10%;
+    #antoillier-cover {
+        background-image: url(../images/antoillier.png);
+        background-position: 50% 40%;
     }
     
 }
