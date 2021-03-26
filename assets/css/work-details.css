@@ -4,6 +4,9 @@ body {
 h1 {
     font-weight: 600;
 }
+.collab-p {
+    font-weight: 600;
+}
 .cover-container {
     height: 30vh;
     overflow: hidden; 
