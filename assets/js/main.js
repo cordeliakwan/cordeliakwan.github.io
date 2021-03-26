@@ -27,3 +27,14 @@
     duration: 1,
     delay: 1.2
   });
+
+  var showcaseStart = 0;
+
+  for(var i = 1; i < 9; i++) {
+    gsap.from(".fade-side-"+i, {
+      opacity: 0, 
+      x: 80, 
+      duration: 1,
+      delay: showcaseStart + i * 0.3
+    });
+  }
