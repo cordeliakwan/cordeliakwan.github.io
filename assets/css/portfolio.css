@@ -20,7 +20,6 @@ img {
     color: #DB5561;
 }
 #work-title-div {
-    margin-top: 80px;
     /* height: 30vh; */
 }
 .cover-container {
@@ -33,10 +32,11 @@ img {
 #portfolio-cover {
     /* background-image: url(../images/ecycle-mockup-992.png);
     background-position: 50% 0; */
-    background-color: #23BCBA;
+    /* background-color: #23BCBA; */
 
-    color: white;
-    font-weight: 800;
+    /* color: white; */
+    color: #DB5561;
+    font-weight: 600;
     font-size: 50px;
     display: flex;
     flex-direction: column;
