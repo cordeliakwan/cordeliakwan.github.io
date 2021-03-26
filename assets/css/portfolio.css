@@ -93,22 +93,17 @@ span:hover {
 
 /* Small */
 @media only screen and (min-width: 576px) {
-    #portfolio-cover {
+    /* #portfolio-cover {
         font-size: 70px;
-    }
+    } */
 
 }
 
 /* Medium */
 @media only screen and (min-width: 768px) {
-    #portfolio-cover {
+    /* #portfolio-cover {
         font-size: 70px;
-    }
-
-    .picture-container {
-        /* width: 400px;
-        height: 400px; */
-    }
+    } */
 }
 
 /* Large */
@@ -136,8 +131,5 @@ span:hover {
 
 /* Extra Large */
 @media only screen and (min-width: 1200px) {
-    .picture-container {
-        /* width: 450px;
-        height: 450px; */
-    }
+
 }
