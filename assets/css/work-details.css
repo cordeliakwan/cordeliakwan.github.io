@@ -33,6 +33,14 @@ h1 {
     background-image: url(../images/antoillier-992.png);
     background-position: 50% 50%;
 }
+#dogs-cover {
+    background-image: url(../images/dogs-icon-cover-992.png);
+    background-position: 50% 50%;
+}
+#seneca-av-cover {
+    background-image: url(../images/seneca-av-cover-992.png);
+    background-position: 50% 50%;
+}
 
 /* carousel styles */
 .carousel {
@@ -74,6 +82,14 @@ h1 {
     #antoillier-cover {
         font-size: 80px;
     }
+    #dogs-cover {
+        font-size: 100px;
+    }
+    #seneca-av-cover {
+        font-size: 80px;
+    }
+
+    
 
 }
 
@@ -83,6 +99,12 @@ h1 {
         font-size: 150px;
     }
     #antoillier-cover {
+        font-size: 100px;
+    }
+    #dogs-cover {
+        font-size: 150px;
+    }
+    #seneca-av-cover {
         font-size: 100px;
     }
 
@@ -104,6 +126,15 @@ h1 {
 
         font-size: 120px;
     }
+    #dogs-cover {
+        background-image: url(../images/dogs-icon-cover.png);
+        background-position: 50% 50%;
+    }
+    #seneca-av-cover {
+        background-image: url(../images/seneca-av-cover.png);
+        background-position: 50% 50%;
+    }
+    
 }
 
 /* Extra Large */
