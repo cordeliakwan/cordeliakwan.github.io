@@ -48,8 +48,8 @@ img {
 }
 
 .picture-container {
-    width: 350px;
-    height: 350px;
+    width: 100%;
+    height: 300px;
     overflow: hidden; 
     background-size: cover;
     background-repeat: no-repeat;   
@@ -60,7 +60,7 @@ a span {
     position: absolute; 
     width: 100%;
     height: 100%;
-    top:0;
+    top: 0;
     left: 0;
     z-index: 1;
 
@@ -79,16 +79,16 @@ span:hover {
 }
 #antoillier-picture {
     background-image: url(../images/antoillier-992.png);
-    background-position: 50% 0;
+    background-position: 50% 50%;
 }
 #dogs-picture {
     background-image: url(../images/dogs-icon-cover-992.png);
-    background-position: 50% 0;
+    background-position: 50% 50%;
     border: solid 1px black;
 }
 #seneca-av-picture {
     background-image: url(../images/seneca-av-cover-992.png);
-    background-position: 50% 0;
+    background-position: 50% 50%;
 }
 
 .video-container {
@@ -108,12 +108,18 @@ span:hover {
     height: 100%;
     border: none;
 }
+.mobile-only {
+    display: block;
+}
 
 /* Small */
 @media only screen and (min-width: 576px) {
     /* #portfolio-cover {
         font-size: 70px;
     } */
+    .mobile-only {
+        display: none;
+    }
 
 }
 
