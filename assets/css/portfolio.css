@@ -10,7 +10,9 @@ body {
 img {
     max-height: 100%;
 }
-
+h4 a {
+    color: #23BCBA;
+}
 .navbar a {
     /* color: white; */
     color: #50474A;
