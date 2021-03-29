@@ -4,6 +4,9 @@ body {
 h1 {
     font-weight: 600;
 }
+.embed-responsive-prototype {
+    padding-bottom: 216.53333%;
+ }
 .collab-p {
     font-weight: 600;
 }
@@ -73,9 +76,9 @@ h1 {
 #ecycle-prototype-div {
     padding-top: 120px;
 }
-#ecycle-prototype {
+/* #ecycle-prototype {
     padding-top: 30px;
-}
+} */
 
 /* small */
 @media only screen and (min-width: 576px) {
@@ -91,8 +94,9 @@ h1 {
     #seneca-av-cover {
         font-size: 80px;
     } */
-
-    
+    .embed-responsive-prototype {
+        padding-bottom: 100%;
+     }   
 
 }
 
