@@ -1,3 +1,5 @@
+  let mobileSize = 768;
+  
   gsap.from(".fade-up-1", {
     opacity: 0, 
     y: 80, 
@@ -30,11 +32,14 @@
 
   var showcaseStart = 0;
 
-  for(var i = 1; i < 9; i++) {
-    gsap.from(".fade-side-"+i, {
-      opacity: 0, 
-      x: 80, 
-      duration: 1,
-      delay: showcaseStart + i * 0.3
-    });
+  if (window.innerWidth > mobileSize) {
+    for(var i = 1; i < 9; i++) {
+      gsap.from(".fade-side-"+i, {
+        opacity: 0, 
+        x: 80, 
+        duration: 1,
+        delay: showcaseStart + i * 0.3
+      });
+    }
   }
+  
