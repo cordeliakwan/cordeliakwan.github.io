@@ -21,30 +21,7 @@ h4 a {
     /* color: #50474A; */
     color: #DB5561;
 }
-#work-title-div {
-    /* height: 30vh; */
-}
-.cover-container {
-    height: 20vh;
-    overflow: hidden; 
-    background-size: cover;
-    background-repeat: no-repeat;   
-    margin: auto;
-}
-#portfolio-cover {
-    /* background-image: url(../images/ecycle-mockup-992.png);
-    background-position: 50% 0; */
-    /* background-color: #23BCBA; */
 
-    /* color: white; */
-    color: #DB5561;
-    font-weight: 600;
-    font-size: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    /* text-shadow: 0 0 15px #a8a8a8; */
-}
 .work-showcase {
     margin: auto;
 }

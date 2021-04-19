@@ -4,14 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About - Cordelia Kwan</title>
+    <title>Contact - Cordelia Kwan</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/about.css">
     <link rel="icon" href="assets/images/brand-icon.png">
 </head>
 
@@ -39,25 +38,44 @@
         </nav>
     </header>
 
-    <div class="page-header cover-container container-fluid mb-5 fade-up-1">About</div>
-    <div class="row mb-5">
-        <div class="col-12 col-md-5 container-fluid px-5 pr-lg-1 pb-5 fade-up-2">
-           <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_amjzyj0j.json" background="transparent" speed="1" style="width: 100%; height: 100%;" loop autoplay></lottie-player>
-        </div>
-        <div class="col-12 col-md-5 container-fluid text-p text-left px-5 pl-lg-1 fade-up-3">
-            <h3 class="cyan-highlight mb-0">Cordelia Kwan</h3>
-            <h5 class="dark-cyan-highlight mb-3">Interactive Designer</h5>
-            <p>
-                As someone who enjoys both logical and creative thinking, I love experiencing the fusion between the two in my work as an interactive designer. 
-                In a world where technology is constantly evolving, I believe that personal growth is important and being open minded to changes is the key to success. 
-                My goal is to support those who work alongside me on my journey, and I hope that those around me can be encouraged by my work which is evident of my own personal growth. 
-                I look forward to exploring the digital landscape throughout my journey as an interactive designer.
-            </p>
-        </div>
-    </div>
-    
+    <div class="page-header cover-container container-fluid mb-5 fade-up-1">Contact</div>
 
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <div class="container-fluid d-flex justify-content-center">
+        <form action="https://formspree.io/f/xayanqep" method="POST" class="col-md-8 col-lg-8 px-4 px-md-5 text-left">
+            <div class="my-4 d-flex flex-column fade-up-2">
+                <label class="cyan-highlight">
+                    Full Name<span class="red-highlight"> *</span>
+                </label>
+                <input type="text" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="my-4 d-flex flex-column fade-up-3">
+                <label class="cyan-highlight">
+                    Email<span class="red-highlight"> *</span>
+                </label>
+                <input type="email" name="_replyto" placeholder="Enter your email" required>
+            </div>
+            <div class="my-4 d-flex flex-column fade-up-4">
+                <label class="cyan-highlight">
+                    Subject<span class="red-highlight"> *</span>
+                </label>
+                <input type="text" name="subject" placeholder="Your subject here..." required>
+            </div>
+            <div class="my-4 d-flex flex-column fade-up-5">
+                <label class="cyan-highlight" >
+                    Message<span class="red-highlight"> *</span>
+                </label>
+                <textarea name="message" placeholder="Your message here..." required></textarea>
+            </div>
+            
+
+            <!-- your other form fields go here -->
+
+            <button type="submit" class="btn btn-primary my-3 fade-up-6">Send</button>
+        </form>
+    </div>
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
         integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
         crossorigin="anonymous"></script>

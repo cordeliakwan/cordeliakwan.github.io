@@ -29,6 +29,12 @@
     duration: 1,
     delay: 1.2
   });
+  gsap.from(".fade-up-6", {
+    opacity: 0, 
+    y: 80, 
+    duration: 1,
+    delay: 1.5
+  });
 
   var showcaseStart = 0;
 

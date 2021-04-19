@@ -2,7 +2,29 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
-
+.cyan-highlight {
+    color: #23BCBA;
+    font-weight: 600;
+}
+.dark-cyan-highlight {
+    color: #0D7D7B;
+    font-weight: 600;
+}
+.red-highlight {
+    color: #DB5561;
+    font-weight: 600;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #DB5561;
+    border-color: #DB5561;
+}
+.text-p {
+    font-size: 12px;
+}
 .container-screenheight {
     min-height: 100vh;
 }
@@ -26,6 +48,7 @@ body {
 }
 .nav-item {
     margin-left: 15px;
+    font-size: 11px;
 }
 .landing {
     padding-top: 100px;
@@ -38,8 +61,58 @@ body {
     color: #DB5561;
 }
 
+.page-header {
+    color: #DB5561;
+    font-weight: 600;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.cover-container {
+    height: 20vh;
+    overflow: hidden; 
+    background-size: cover;
+    background-repeat: no-repeat;   
+    margin: auto;
+}
+
+/* form {
+    border: #23BCBA solid 2px; 
+    border-radius: 20px;
+} */
+input {
+    outline: none;
+    border: none;
+    border-bottom: #afafaf solid 2px;
+}
+input:focus {
+    border-bottom: #DB5561 solid 2px;
+}
+textarea {
+    outline: none;
+    border: #afafaf solid 2px;
+}
+textarea:focus {
+    border: #DB5561 solid 2px;
+}
+
+@media only screen and (min-width: 375px) {
+    .text-p {
+        font-size: 14px;
+    }
+    .nav-item {
+        font-size: 15px;
+    }
+    .page-header {
+        font-size: 50px;
+    }
+}
 @media only screen and (min-width: 768px) {
     #logo-img {
         margin-left:20px;
+    }
+    .nav-item {
+        font-size: 16px;
     }
 }
