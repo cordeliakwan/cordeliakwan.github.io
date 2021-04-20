@@ -48,7 +48,7 @@ body {
 }
 .nav-item {
     margin-left: 15px;
-    font-size: 11px;
+    font-size: 15px;
 }
 .landing {
     padding-top: 100px;
@@ -100,9 +100,6 @@ textarea:focus {
 @media only screen and (min-width: 375px) {
     .text-p {
         font-size: 14px;
-    }
-    .nav-item {
-        font-size: 15px;
     }
     .page-header {
         font-size: 50px;
