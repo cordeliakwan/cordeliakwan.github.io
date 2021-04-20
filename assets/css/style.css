@@ -70,7 +70,7 @@ body {
     justify-content: flex-end;
 }
 .cover-container {
-    height: 20vh;
+    height: 25vh;
     overflow: hidden; 
     background-size: cover;
     background-repeat: no-repeat;   
@@ -111,5 +111,8 @@ textarea:focus {
     }
     .nav-item {
         font-size: 16px;
+    }
+    .cover-container {
+        height: 20vh;
     }
 }
